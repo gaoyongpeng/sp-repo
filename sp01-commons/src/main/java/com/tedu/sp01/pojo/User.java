@@ -14,5 +14,6 @@ public class User {
 	private String username;
 	//用户密码2
 	private String password;
+	//wf11111111111111111
 	//wf2222222222222222222
 }
