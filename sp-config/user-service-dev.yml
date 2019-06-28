@@ -14,3 +14,9 @@ eureka:
   client:
     service-url:
       defaultZone: http://eureka1:2001/eureka,http://eureka1:2002/eureka  #向eureka服务中心注册
+ 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
